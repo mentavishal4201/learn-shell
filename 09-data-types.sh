@@ -15,3 +15,7 @@ echo "Count is: ${COUNT}"
 fruits=('apple' 'banana' 'chips')
 echo "All fruits:${fruits[@]}"
 echo "first fruit:${fruits[0]}"
+
+name="Venkata Narahari Vishal M"
+
+echo "My name is ${name}enta"
