@@ -9,22 +9,22 @@ fi
 
 echo "proceeding"
 
-dnf install nginx -y
+dnf install nginxxxx -y
 
 echo "Prvious exit status: $?"
 
-if [ $? -ne 0]; then
+if [ $? -ne 0 ]; then
     echo "Nginx installation is failed"
 else
     echo "Nginx installation is success"
 fi 
 
-dnf install mysql -y 
+# dnf install mysql -y 
 
-if [ $? -ne 0]: then
-    echo "Mysql installatin is failed"
-else
-    echo "Mysql installation is success"
-fi 
+# if [ $? -ne 0 ]: then
+#     echo "Mysql installatin is failed"
+# else
+#     echo "Mysql installation is success"
+# fi 
 
-echo "still proceeding"
+# echo "still proceeding"
