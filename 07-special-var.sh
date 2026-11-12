@@ -2,10 +2,10 @@
 
 echo "Here are the special variables"
 
-echo "for all aruguments: $@"
-echo "for all arguments with words: $*"
-echo "for directory:$PWD"
-echo "for user name: $USER"
+echo "To see all aruguments: $@"
+echo "To see all arguments with words: $*"
+echo "To see directory:$PWD"
+echo "To see user name: $USER"
 echo "number of args passed:$#"
 echo "Previous command exit status: $?"
 echo "First variable:$1"
