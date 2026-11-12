@@ -12,7 +12,7 @@ echo "First variable:$1"
 echo "Script name: $0"
 echo "RealPath: $(realpath $0)"
 echo "Home directory: $HOME"
-echo "for PID: $$"
+echo "To see PID: $$"
 sleep 10 &
 echo "PID running in background: $!"
 echo "Line number: $LINENO"
