@@ -21,6 +21,7 @@ else
 fi 
 
 dnf install mysql -y 
+echo "Prvious exit status: $?"
 
 if [ $? -ne 0 ]; then
     echo "Mysql installatin is failed"
