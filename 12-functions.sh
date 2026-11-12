@@ -7,6 +7,8 @@ echo "Here is the user id: $user_id"
 if [ $user_id -ne 0 ]; then
     echo "Proceed the script with sudo access"
     exit 1
+else
+    echo "It is not proceeding with sudo access"
 fi 
 
 validate(){
