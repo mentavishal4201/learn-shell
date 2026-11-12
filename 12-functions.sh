@@ -17,7 +17,9 @@ validate(){
         exit 1
     else
         echo "${2} is Success" 
-}
+    fi
+
+}   
 
 echo "Proceeding the function"
 
